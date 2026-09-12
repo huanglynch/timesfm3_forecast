@@ -1,0 +1,45 @@
+TimesFM 3 Forecast GUI
+Copyright 2026 TimesFM 3 Forecast GUI contributors
+
+This product includes software developed independently of Google LLC.
+It is not an official Google product and is not affiliated with,
+endorsed by, or supported by Google.
+
+---------------------------------------------------------------------------
+This GUI (the Python application in this repository) is licensed under
+the Apache License, Version 2.0. See the LICENSE file.
+
+---------------------------------------------------------------------------
+Third-party components you will load at runtime
+
+1. TimesFM source code (Google Research)
+   https://github.com/google-research/timesfm
+   License: Apache-2.0
+
+2. TimesFM model weights up to version 2.5
+   Example: google/timesfm-2.5-200m-pytorch
+   License: Apache-2.0
+
+3. TimesFM 3.0 pretrained weights
+   https://huggingface.co/google/timesfm-3.0-pytorch
+   License: TimesFM Non-Commercial License v1.0
+   (timesfm-non-commercial-license-v1.0)
+
+   The 3.0 weights are licensed for non-commercial, non-production use
+   only: research, evaluation, and experimentation. They must not be used
+   for revenue-generating activity, production systems that interact with
+   end users, or to train / fine-tune / distill other models for
+   commercial use.
+
+   If you need a commercially usable checkpoint, pin this application to
+   TimesFM 2.5 and read the Apache-2.0 terms that apply to those weights.
+
+4. NiceGUI, Plotly, AKShare, requests, PyYAML, and other PyPI
+   dependencies retain their own licenses. See each package metadata.
+
+---------------------------------------------------------------------------
+Market data
+
+Data pulled from AKShare, Polygon.io, Finnhub, or Financial Modeling Prep
+is subject to those vendors' terms of use and is not redistributed by
+this repository.

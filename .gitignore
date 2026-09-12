@@ -1,0 +1,43 @@
+# --- secrets & local state ---
+timesfm_config.json
+timesfm_runtime.log
+*.local.json
+
+# --- model weights / HF cache ---
+models/
+**/huggingface/hub/
+**/huggingface/assets/
+**/*.safetensors
+**/*.bin
+**/*.ckpt
+**/*.pt
+**/*.pth
+
+# --- forecast outputs ---
+timesfm_forecast_outputs/
+akshare_file_fold/
+
+# --- python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+*.spec
+.venv/
+venv/
+env/
+
+# --- tools / OS ---
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- notebooks / scratch ---
+.ipynb_checkpoints/
+*.tmp
+.tfm_write_probe

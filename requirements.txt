@@ -1,0 +1,19 @@
+# GUI + data plane. Install TimesFM itself separately:
+#   pip install "timesfm[torch]"
+#
+# Torch is pulled in by timesfm[torch]. If you only want the UI without
+# a model (CI / screenshot), the packages below are enough to import
+# everything except ForecastEngine.load().
+
+numpy>=1.24
+pandas>=2.0
+requests>=2.31
+nicegui>=2.0
+plotly>=5.18
+PyYAML>=6.0
+akshare>=1.14
+finnhub-python>=2.4
+openpyxl>=3.1
+safetensors>=0.4
+huggingface_hub>=0.23
+pywebview>=5.0
